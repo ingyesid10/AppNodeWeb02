@@ -1,0 +1,134 @@
+body {} .login {
+    width: 100%;
+    height: 50px;
+    background: #E0E6F8;
+}
+.login img {
+    margin-right: 20px;
+    float: right;
+    height: 55px;
+    width: 50px;
+}
+.login a {
+    margin-right: 20px;
+    float: right;
+    background: #E0E6F8;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.login div {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2.2pt;
+    word-spacing: 0.4pt;
+    vertical-align: middle;
+    float: right;
+    margin-right: 10px;
+}
+h1 {
+    margin-bottom: 30px;
+}
+.container label {
+    font-weight: bold;
+}
+strong,
+img {
+    display: block;
+}
+.container {
+    margin: 100px auto;
+    text-align: center;
+    width: 400px;
+}
+.container img {
+    float: right;
+    height: 30px;
+    weight: 70px;
+}
+.subir-archivo .btn {
+    padding: 2px 2px 2px 2px;
+    height: 25px;
+    width: 25%;
+}
+#logout {
+    margin-top: 10px;
+}
+.subir-archivo .row>* {
+    float: none;
+    display: inline-block
+}
+@media screen and (max-width: 767px) {
+    .subir-archivo .container-fluid {
+        display: block;
+    }
+    .subir-archivo .btn {
+        padding: 2px 2px 2px 2px;
+        height: 30px;
+        width: 100%;
+    }
+    .subir-archivo.container-fluid>.row {
+        display: block
+    }
+    .subir-archivo .container-fluid>.row>div {
+        display: block;
+        height: auto;
+        margin: 10 auto;
+    }
+	
+	 .login #name, #mail{
+		 display: none;
+	 }
+	 .formulario .table{
+	font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+    .subir-archivo .container-fluid {
+        display: block;
+    }
+    .subir-archivo .btn {
+        padding: 2px 2px 2px 2px;
+        height: 30px;
+        width: 100%;
+    }
+    .subir-archivo.container-fluid>.row {
+        display: block
+    }
+    .subir-archivo .container-fluid>.row>div {
+        display: block;
+        height: auto;
+        margin: 10 auto;
+    }
+	
+}
+.logo img {
+
+    margin-top: -35px;
+
+}
+input[type="file"] { display: block; }
+
+.row #cargar{
+	width: 200px;
+}
+.formulario{
+	text-align:left;
+}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
