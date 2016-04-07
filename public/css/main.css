@@ -75,15 +75,33 @@ img {
         height: auto;
         margin: 10 auto;
     }
-	
-	 .login #name, #mail{
-		 display: none;
-	 }
-	 .formulario .table{
-	font-size: 15px;
-	}
+    .login #name,
+    #mail {
+        display: none;
+    }
+    .formulario .table {
+        font-size: 15px;
+    }
+    .formulario .btn-danger {
+        display: none;
+    }
+    .formulario .btn-success {
+        width: 100%;
+    }
+    .formulario #archivo-nombre {
+        display: none;
+    }
+    .formulario .icon-up {
+        display: block;
+    }
+    .formulario .td-resp {
+        display: none;
+        width: 0;
+        height: 0;
+        opacity: 0;
+        visibility: collapse;
+    }
 }
-
 @media screen and (max-width: 991px) {
     .subir-archivo .container-fluid {
         display: block;
@@ -101,20 +119,24 @@ img {
         height: auto;
         margin: 10 auto;
     }
-	
 }
 .logo img {
-
     margin-top: -35px;
-
 }
-input[type="file"] { display: block; }
-
-.row #cargar{
-	width: 200px;
+input[type="file"] {
+    display: block;
 }
-.formulario{
-	text-align:left;
+.row #cargar {
+    width: 200px;
+}
+.formulario {
+    text-align: left;
+}
+.formulario .btn-success {
+    width: 100%;
+}
+.formulario .btn-danger {
+    width: 100%;
 }
 .fileUpload {
     position: relative;
